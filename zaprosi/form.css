@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css');
+
+*{
+	font-family: 'Open Sans', 'sans-serif', 'FontAwesome';
+}
+body{
+    background: rgb(52, 56, 61);
+}
+h1{
+	color: rgb(255, 255, 255);
+	margin: 20px auto 0;
+	width: 200px;
+	text-align: center;
+}
+#wrapper{
+	position: absolute;
+	width: 320px;
+	left: 50%;
+	margin-left: -160px;
+	top: 50%;
+	margin-top: -200px;
+}
+
+
+#delete {
+	height: 90px;
+	width: 300px;
+	border-radius: 8px;
+	position: relative;
+}
+#delete input:first-of-type{
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+#delete input:last-of-type{
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+#delete  input[type="text"], #delete  input[type="password"], #delete button[type="submit"]{
+	background: rgb(28, 30, 33);
+	box-shadow: inset -100px -100px 0 rgb(28, 30, 33); 
+	color: rgb(52, 56, 61);
+}
+#delete  input[type="text"], #delete  input[type="password"]{
+	position: relative;
+	display: block;
+	width: 280px;
+	height: 45px;
+	border: 0;
+	outline: 0;
+	top: -2px;
+	padding: 0 0 0 20px;
+	font-weight: 700;
+}
+#delete  input[type="text"]:focus, #delete  input[type="password"]:focus{
+	color: rgb(255, 255, 255);
+}
+#delete  input[type="number"], #delete  input[type="password"], #delete button[type="submit"]{
+	background: rgb(28, 30, 33);
+	box-shadow: inset -100px -100px 0 rgb(28, 30, 33); 
+	color: rgb(52, 56, 61);
+}
+
+#delete  input[type="number"], #delete  input[type="password"]{
+	position: relative;
+	display: block;
+	width: 280px;
+	height: 45px;
+	border: 0;
+	outline: 0;
+	top: -2px;
+	padding: 0 0 0 20px;
+	font-weight: 700;
+}
+#delete  input[type="number"]:focus, #delete  input[type="password"]:focus{
+	color: rgb(255, 255, 255);
+}
+#delete button[type="submit"]{
+	width: 200px;
+    margin: 0px  50px;
+	height: 52px;
+	color: gray;
+	border-radius: 50px;
+	outline: 0;
+	z-index: 2;
+	top: 19px;
+	border: 6px solid rgb(52, 56, 61);
+	font-size: 25px;
+	text-indent: 0px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	text-align: center;
+}
+#delete button[type="submit"]:hover{
+	color: rgb(0, 126, 165);
+	text-shadow: 0 0 10px rgb(0, 126, 165);
+	cursor: pointer;
+}
+#delete p {
+	color: rgb(79, 85, 97);
+	padding: 0 20px;
+	font-weight: 700;
+	font-size: 12px;
+	margin: 5px 0 0 0;
+}
+#delete p > a{
+	color: rgb(111, 119, 135);
+	text-decoration: none;
+}
+#delete p > a:hover{
+	border-bottom: 1px solid;
+}
+
+hr{
+    margin: 0;
+}
